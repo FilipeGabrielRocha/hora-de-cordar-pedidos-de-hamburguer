@@ -44,3 +44,14 @@ import Picture from './Picture.vue';
     }
 }
 </script>
+<style scoped>
+    a {
+        background: black;
+        border-radius: 20px;
+        padding: 10px;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
