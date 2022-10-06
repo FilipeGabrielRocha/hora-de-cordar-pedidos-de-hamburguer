@@ -25,7 +25,7 @@ import Submit from './form/Submit.vue';
     components: {
         InputText,
         Submit,
-        InputText
+        InputText,
     },
     data() {
         return {
