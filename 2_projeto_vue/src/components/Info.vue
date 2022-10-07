@@ -22,11 +22,13 @@
 import Picture from './Picture.vue';
     export default {
     name: "Info",
+    props: {
+        email: String,
+        esta_trabalhando: Boolean,
+    },
     data() {
         return {
-            esta_trabalhando: true,
             mostrar_email: false,
-            email: "filiperochaprogramador@gmail.com",
             meu_link: "https://filipegabrielrocha.github.io/portfolio/",
             textoBotao: 'Mostrar e-mail',
             backend_technologies: ['Python', 'PHP', 'JavaScript'],
